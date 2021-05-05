@@ -1,7 +1,14 @@
+--Home Mac-----------------------------------------------------------------------------------
 CREATE DATABASE '/Users/Shared/databases/database_repository/CBLS.FDB'
 PAGE_SIZE = 8192
 DEFAULT CHARACTER SET UTF8;
 -------------------------------------------------------------------------------------
+CREATE DATABASE 'E:/databases/CABLES.FDB'
+USER 'SYSDBA' PASSWORD 'masterkey'
+PAGE_SIZE = 8192
+DEFAULT CHARACTER SET UTF8;
+--Work Windows-----------------------------------------------------------------------------------
+
 CREATE DOMAIN BOOLEAN_INT AS
   INTEGER
   DEFAULT 0
