@@ -2,13 +2,13 @@
 CREATE DATABASE '/Users/Shared/databases/database_repository/CBLS.FDB'
 PAGE_SIZE = 8192
 DEFAULT CHARACTER SET UTF8;
--------------------------------------------------------------------------------------
+--Work Windows-----------------------------------------------------------------------------------
 CREATE DATABASE 'E:/databases/CABLES.FDB'
 USER 'SYSDBA' PASSWORD 'masterkey'
 PAGE_SIZE = 8192
 DEFAULT CHARACTER SET UTF8;
---Work Windows-----------------------------------------------------------------------------------
-
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 CREATE DOMAIN BOOLEAN_INT AS
   INTEGER
   DEFAULT 0
@@ -458,6 +458,7 @@ INSERT INTO CABLE_BRAND_NAME (BRAND_NAME) VALUES ('КЭРс(Э)');
 INSERT INTO CABLE_BRAND_NAME (BRAND_NAME) VALUES ('КИП');
 INSERT INTO CABLE_BRAND_NAME (BRAND_NAME) VALUES ('КПСВ(Э)');
 INSERT INTO CABLE_BRAND_NAME (BRAND_NAME) VALUES ('КПС(Э)');
+INSERT INTO CABLE_BRAND_NAME (BRAND_NAME) VALUES ('КСБ');
 --15---------------------------------------------------------------------------------------------------------------------------------------------------------------
 CREATE TABLE INSULATED_BILLET (
   ID INTEGER PRIMARY KEY NOT NULL,
